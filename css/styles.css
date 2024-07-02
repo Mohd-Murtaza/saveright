@@ -12,8 +12,8 @@ body {
     max-width: 450px;
     padding: 30px;
     background: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 20px;
 }
 
@@ -58,8 +58,8 @@ body {
     aspect-ratio: 1;
     border-radius: 50%;
     background: 
-      radial-gradient(farthest-side,#16ff8a 94%,#0000) top/8px 8px no-repeat,
-      conic-gradient(#0000 30%,#16ff8a);
+      radial-gradient(farthest-side,#007bff 94%,#0000) top/8px 8px no-repeat,
+      conic-gradient(#0000 30%,#007bff);
     -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
     animation: l13 1s infinite linear;
   }
