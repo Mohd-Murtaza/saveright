@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Flow - Phone Number</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-step active">
+            <h2 class="main-heading">Enter Phone Number</h2>
+            <form id="phoneForm">
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="number" class="form-control" id="phoneNumber" max="9999999999" min="0" placeholder="Enter phone number">
+                    <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Request OTP</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
