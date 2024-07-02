@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (result.isConfirmed) {
                     window.location.href = 'otp.html';
                 }else{
-                    window.location.href = 'index.html';
+                    container.style.display = 'block';
                 }
             });
         } else {
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else {
                     container.style.display="none"
                     Swal.fire('Invalid OTP', 'Please enter the correct OTP', 'error').then(()=>{
-                        window.location.href = 'otp.html';
+                        container.style.display = 'block';
                     });
                     otpInputs.forEach(input => input.classList.add('is-invalid'));
                 }
