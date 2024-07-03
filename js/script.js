@@ -7,9 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const phoneError = document.getElementById('phoneError');
     const otpError = document.getElementById('otpError');
     const loader = document.getElementById('loader');
-
     const storedOTP = Math.floor(100000 + Math.random() * 900000).toString();
-
     phoneForm?.addEventListener('submit', function(event) {
         event.preventDefault();
         const phoneNumber = phoneNumberInput.value;
@@ -33,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
             phoneError.classList.add('visible');
         }
     });
-
     otpInputs.forEach((input, index) => {
         input.addEventListener('input', () => {
             if (!/^\d*$/.test(input.value)) {
@@ -44,14 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
             otpError.classList.remove('visible');
             input.classList.remove('is-invalid');
         });
-
         input.addEventListener('keydown', (event) => {
             if (event.key === 'Backspace' && input.value.length === 0 && index > 0) {
                 otpInputs[index - 1].focus();
             }
         });
     });
-
     otpForm?.addEventListener('submit', function(event) {
         event.preventDefault();
         let otp = '';
