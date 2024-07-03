@@ -5,18 +5,29 @@
 This project implements a simple login flow using phone number verification and OTP (One-Time Password). Users can enter their phone number, receive an OTP via a modal dialog, enter the OTP on the OTP verification page, and upon successful verification, proceed to a welcome page.
 
 ## Folder Structure
+    saveright/
+    ├── css/
+    │   └── styles.css
+    ├── js/
+    │   └── script.js
+    ├── index.html
+    ├── otp.html
+    └── welcome.html
 
-saveright/
-│
-├── css/
-│ └── styles.css
-│
-├── js/
-│ └── script.js
-│
-├── index.html
-├── otp.html
-└── welcome.html
+## Images
+<img width="538" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/ef3d3a55-35c4-451b-8ac5-689e361c5642">
+<br/>
+<img width="602" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/fd7491e2-fe8f-4853-b19c-ab61c18a911a">
+<br/>
+<img width="445" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/e0d42678-1c77-4572-8a3f-4438b61680c4">
+<br/>
+<img width="532" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/33f65d44-632a-4a69-a593-b10d251d65b2">
+<br/>
+<img width="456" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/022c8f51-dca5-43f9-a418-2e94c5f7ce13">
+<br/>
+
+
+
 
 
 ## Features
