@@ -5,19 +5,14 @@
 This project implements a simple login flow using phone number verification and OTP (One-Time Password). Users can enter their phone number, receive an OTP via a modal dialog, enter the OTP on the OTP verification page, and upon successful verification, proceed to a welcome page.
 
 ## Folder Structure
-
-saveright/
-│
-├── css/
-│ └── styles.css
-│
-├── js/
-│ └── script.js
-│
-├── index.html
-├── otp.html
-└── welcome.html
-
+    saveright/
+    ├── css/
+    │   └── styles.css
+    ├── js/
+    │   └── script.js
+    ├── index.html
+    ├── otp.html
+    └── welcome.html
 
 ## Features
 
