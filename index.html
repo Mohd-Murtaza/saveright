@@ -1,28 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Flow - Phone Number</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      body {
+        background-color: black;
+      }
+      #tsparticles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+      .container {
+        position: relative;
+        color: rgb(255, 255, 255);
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: rgba(0, 179, 255, 0.12) 0px 2px 4px 0px,
+          rgba(38, 255, 118, 0.32) 0px 2px 16px 0px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div class="login-step active">
-            <h2 class="main-heading">Enter Phone Number</h2>
-            <form id="phoneForm">
-                <div class="form-group">
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="number" class="form-control" id="phoneNumber" max="9999999999" min="0" placeholder="Enter phone number">
-                    <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
-                </div>
-                <button type="submit" class="btn btn-primary">Request OTP</button>
-            </form>
-        </div>
+      <div class="login-step active">
+        <h2 class="main-heading">Enter Phone Number</h2>
+        <form id="phoneForm">
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="number"
+              class="form-control"
+              id="phoneNumber"
+              max="9999999999"
+              min="0"
+              placeholder="Enter phone number"
+            />
+            <div class="invalid-feedback">
+              Please enter a valid 10-digit phone number.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Request OTP</button>
+        </form>
+      </div>
     </div>
+    <div id="tsparticles"></div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+    <script type="text/javascript">
+      tsParticles.load("tspaticles", {
+        fpsLimit: 120,
+        particles: {
+          number: {
+            value: 80,
+            density: {
+              enable: true,
+              value_area: 1500,
+            },
+          },
+          color: {
+            value: ["#2EB67D", "#ECB22E", "#E01E5B", "#36C5F0"],
+          },
+          shape: {
+            type: ["circle"],
+            stroke: {
+              width: 0,
+              color: "#fff",
+            },
+            polygon: {
+              nb_sides: 5,
+            },
+            image: {
+              src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
+              width: 100,
+              height: 100,
+            },
+          },
+          opacity: {
+            value: 1,
+            random: false,
+            anim: {
+              enable: false,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false,
+            },
+          },
+          size: {
+            value: 12,
+            random: true,
+            anim: {
+              enable: false,
+              speed: 10,
+              size_min: 10,
+              sync: false,
+            },
+          },
+          line_linked: {
+            enable: true,
+            distance: 200,
+            color: "#808080",
+            opacity: 0.4,
+            width: 1,
+          },
+          move: {
+            enable: true,
+            speed: 3,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200,
+            },
+          },
+        },
+        interactivity: {
+          detect_on: "canvas",
+          events: {
+            onhover: {
+              enable: true,
+              mode: "grab",
+            },
+            onclick: {
+              enable: true,
+              mode: "push",
+            },
+            resize: true,
+          },
+          modes: {
+            grab: {
+              distance: 240,
+              line_linked: {
+                opacity: 1,
+              },
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3,
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4,
+            },
+            push: {
+              particles_nb: 4,
+            },
+            remove: {
+              particles_nb: 2,
+            },
+          },
+        },
+        retina_detect: true,
+      });
+    </script>
+  </body>
 </html>
