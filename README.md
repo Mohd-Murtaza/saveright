@@ -23,7 +23,7 @@ This project implements a simple login flow using phone number verification and 
 <br/>
 <img width="532" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/33f65d44-632a-4a69-a593-b10d251d65b2">
 <br/>
-<img width="456" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/022c8f51-dca5-43f9-a418-2e94c5f7ce13">
+<img width="946" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/3c4c861d-7ef6-4fe0-bd0e-df1114748479">
 <br/>
 
 
@@ -37,6 +37,7 @@ This project implements a simple login flow using phone number verification and 
 - **Responsive Design:** Designed to work well on various screen sizes using Bootstrap classes and custom CSS.
 - **Error Handling:** Provides feedback for invalid inputs and displays error messages.
 - **Loading Indicator:** Displays a loader while verifying OTP for better user experience.
+- **Fireworks Effect:** When the user logs in successfully and reaches the welcome page/Home Page, Fireworks will play.
 
 ## Libraries Used
 
