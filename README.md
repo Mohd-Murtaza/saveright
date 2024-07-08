@@ -15,13 +15,13 @@ This project implements a simple login flow using phone number verification and 
     └── welcome.html
 
 ## Images
-<img width="538" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/ef3d3a55-35c4-451b-8ac5-689e361c5642">
+<img width="959" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/de9fa6ef-dd1a-4765-9fdb-285c9d654252">
 <br/>
-<img width="602" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/fd7491e2-fe8f-4853-b19c-ab61c18a911a">
+<img width="959" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/6162615b-e514-4be4-a216-e60c0a8d2424">
 <br/>
-<img width="445" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/e0d42678-1c77-4572-8a3f-4438b61680c4">
+<img width="959" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/f4c5bb7b-1386-4957-9eac-82dc38756ba5">
 <br/>
-<img width="532" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/33f65d44-632a-4a69-a593-b10d251d65b2">
+<img width="959" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/83a7756e-f278-4f5f-bdff-92f91adccfbd">
 <br/>
 <img width="946" alt="image" src="https://github.com/Mohd-Murtaza/saveright/assets/112779948/3c4c861d-7ef6-4fe0-bd0e-df1114748479">
 <br/>
